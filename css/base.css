@@ -41,6 +41,7 @@ p {
     font-family: 'Varela Round', sans-serif;
     color: #F7F0F0;
     padding: 0.5rem;
+    text-align: center;
 }
 
 nav {
@@ -90,6 +91,10 @@ img {
     box-shadow: 5px 10px black;
     display: block;
     margin: 1rem;
+}
+
+picture img {
+    background-color: #F6511D;
 }
 
 article {
