@@ -88,6 +88,7 @@ img {
     background-color: #18A999;
     border: #445E93 solid 4px;
     box-shadow: 5px 10px black;
+    display: block;
 }
 
 article {
