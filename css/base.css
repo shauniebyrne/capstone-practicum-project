@@ -2,8 +2,102 @@
 font-family: 'Varela Round', sans-serif; paragraphs */
 
 /* Color Scheme - 
-Bdazzled Blue - #445E93 - writing background color
-Persian Green - #18A999 - card background color
+Bdazzled Blue - #445E93 - section background color
+Persian Green - #18A999 - article background color
 Red Orange Color Wheel - #F6511D - website background color
 Snow - #F7F0F0 - writing color */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    background-color: #F6511D;
+}
+
+h1, h2, h3 {
+    font-family: 'Secular One', sans-serif;
+    color: #F7F0F0;
+    text-align: center;
+    padding: 0.5 rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 0.5rem;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Varela Round', sans-serif;
+    color: #F7F0F0;
+    padding: 0.5rem;
+}
+
+nav {
+	background-color: #18A999;
+	text-align: center;
+    font-weight: bold;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li a {
+	display: block;
+	color: #F7F0F0;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul li a:visited {
+    color: #445E93;
+    background-color: #F7F0F0;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #F7F0F0;
+    background-color: #445E93;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #445E93;
+    text-align: center;
+}
+
+img {
+    padding: 1rem;
+    background-color: #18A999;
+    border: #445E93 solid 4px;
+    box-shadow: 5px 10px black;
+}
+
+article {
+    background-color: #18A999;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+section {
+    background-color: #445E93;
+    padding: 1rem;
+    border-radius: 25px;
+}
