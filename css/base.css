@@ -21,19 +21,19 @@ h1, h2, h3 {
     font-family: 'Secular One', sans-serif;
     color: #F7F0F0;
     text-align: center;
-    padding: 0.5 rem;
+    padding: 0.5rem;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 0.5rem;
+    font-size: 1rem;
     text-decoration: underline;
 }
 
@@ -89,16 +89,19 @@ img {
     border: #445E93 solid 4px;
     box-shadow: 5px 10px black;
     display: block;
+    margin: 1rem;
 }
 
 article {
     background-color: #18A999;
     padding: 1rem;
     border-radius: 25px;
+    margin: 1rem;
 }
 
 section {
     background-color: #445E93;
     padding: 1rem;
     border-radius: 25px;
+    margin: 1rem;
 }
